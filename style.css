@@ -1,6 +1,57 @@
+body {
+background-color: lightgrey;
+}
+.code-wrapper {
+  margin: 128px auto;
+  max-width: 600px;
+  width: 100%;
+}
+
 h1 {
 text-align: center;
+font-size: 100%;
+font-weight: 900;
+line-height: 25px;
 }
+.poem-form{
+  display: flex;
+  background: white;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0 ,0.1);
+}
+.poem-title{
+  width: 80%;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+  
+}
+.submit-form{
+  background: purple;
+  color: white;
+  margin-left: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+.poems {
+background: white;
+padding: 15px;
+border-left: 3px solid grey;
+border-radius: 4px;
+margin-bottom: 20px;
+font-size: 13px;
+box-shadow: 0 10px 10px rgba(0, 0, 0 ,0.1);
+}
+  
 footer{
 text-align: center;
+font-size: 60%;
+}
+a {
+  color: purple;
+  text-decoration: none;
 }
