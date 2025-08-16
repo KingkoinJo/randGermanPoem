@@ -38,6 +38,7 @@ line-height: 25px;
   border-radius: 50px;
 }
 .poems {
+display: flex;
 background: white;
 padding: 15px;
 border-left: 3px solid grey;
@@ -54,4 +55,15 @@ font-size: 60%;
 a {
   color: purple;
   text-decoration: none;
+}
+#loader{
+  display:none;
+  position: relative;
+  right: 40px;
+  margin: 0 40px;
+}
+.poems strong{
+  display: block;
+  margin-top: 5px;
+color: purple;
 }
