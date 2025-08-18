@@ -14,13 +14,23 @@ font-weight: 900;
 line-height: 25px;
 }
 .poem-form{
-  display: flex;
   background: white;
   padding: 15px;
   border: 1px solid lightgrey;
   border-radius: 10px;
   margin-bottom: 20px;
   box-shadow: 0 10px 10px rgba(0, 0, 0 ,0.1);
+}
+
+.form-information{
+  display: flex;
+}
+
+.poem-subject{
+  font-size: 12px;
+  color: grey;
+  line-height: 18px;
+  padding-left: 5px;
 }
 .poem-title{
   width: 80%;
@@ -37,8 +47,7 @@ line-height: 25px;
   border: none;
   border-radius: 50px;
 }
-.poems {
-display: flex;
+#poems {
 background: white;
 padding: 15px;
 border-left: 3px solid grey;
@@ -56,14 +65,12 @@ a {
   color: purple;
   text-decoration: none;
 }
-#loader{
-  display:none;
-  position: relative;
-  right: 40px;
-  margin: 0 40px;
-}
-.poems strong{
+
+#poems strong{
   display: block;
   margin-top: 5px;
 color: purple;
+}
+.hidden{
+  display:none;
 }
